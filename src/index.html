@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form basics</title>
+    </head>
+
+    <body>
+        <h1>Welcome to Computer Science @ MHS</h1>
+        <p>Please complete the following form</p>
+        <hr />
+        <h3>Demographic Information</h3>
+        <form action="mailto:jporta@student.mamkschools.org"
+            <p>
+                First Name:
+                <input type="text" name="firstName" size="15" maxlength="30" 
+                placeholder="size=15"/>
+                Last Name:
+                <input type="text" name="lastName" size="15" maxlength="30"
+            </p>
+            <p>
+                Username:
+                <input type="email" name="email" size="17" placeholder="example@domain.com">
+                Password:
+                <input type="password" name="password" size="15">
+            </p>
+            <p>
+                Date of Birth
+                <input type="date" name="DOB" size="15">
+            </p>
+            <hr>
+            <h3> Class Information</h3>
+            <p>Course:
+            <select name="courses">
+                <option value="Exploring CS">
+                    Exploring CS
+                </option>
+                <option value="Intro to Java" selected="selected">
+                    Intro to Java
+                </option>
+                <option value="APCS">
+                    APCS
+                </option>
+                <option value="Collaborative Design">
+                    Collaborative Design
+                </option>
+            </select>
+            </p>
+            <p>
+                Teacher:
+                <input type="radio" name="teacher"
+                value="Mr. Hohn">
+                Mr. Hohn
+                <input type="radio" name="teacher" value="Mr. Jadav">
+                Mr. Jadav
+            </p>
+            <p>
+                Class Period:
+                <input type="checkbox" name="period" value="1st">
+                1<sup>st</sup>
+                <input type="checkbox" name="period" value="2nd">
+                2<sup>nd</sup>
+                <input type="checkbox" name="period" value="3rd">
+                3<sup>rd</sup>
+                <input type="checkbox" name="period" value="4th">
+                4<sup>th</sup>
+                <input type="checkbox" name="period" value="5th">
+                5<sup>th</sup>
+                <input type="checkbox" name="period" value="6th">
+                6<sup>th</sup>
+                <input type="checkbox" name="period" value="7th">
+                7<sup>th</sup>
+                <input type="checkbox" name="period" value="8th">
+                8<sup>th</sup>
+            </p>
+            <p>What are you most excited about for this coming year?</p>
+             <textarea name="comments" size="15" cols="50" rows="4" placeholder="Enter your comments..."></textarea>
+             <br><input type="submit">
+        </form>
+    </body>
+</html>
